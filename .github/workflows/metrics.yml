@@ -1,0 +1,56 @@
+name: Refresh profile telemetry
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Development overview
+        # v3.34, pinned to the release commit for supply-chain safety.
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: QuantumKuba
+          template: terminal
+          filename: metrics-overview.svg
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/London
+          config_padding: "0, 8 + 4%"
+
+      - name: Language map
+        # v3.34, pinned to the release commit for supply-chain safety.
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: QuantumKuba
+          template: terminal
+          filename: metrics-languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          config_timezone: Europe/London
+
+      - name: Contribution topology
+        # v3.34, pinned to the release commit for supply-chain safety.
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: QuantumKuba
+          template: terminal
+          filename: metrics-isocalendar.svg
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          config_timezone: Europe/London
