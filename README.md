@@ -38,8 +38,22 @@ principle = "Measure carefully. Explain clearly. Ship responsibly."
 
 ## Selected build trails
 
-<a href="https://github.com/QuantumKuba/NLS-RAG"><img src="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKuba&repo=NLS-RAG&theme=transparent&hide_border=true&title_color=00c2a8&text_color=c9d1d9&icon_color=00c2a8" alt="NLS-RAG repository" /></a>
-<a href="https://github.com/QuantumKuba/obsidian-brainhack"><img src="https://github-readme-stats.vercel.app/api/pin/?username=QuantumKuba&repo=obsidian-brainhack&theme=transparent&hide_border=true&title_color=00c2a8&text_color=c9d1d9&icon_color=00c2a8" alt="obsidian-brainhack repository" /></a>
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/QuantumKuba/NLS-RAG">
+        <img src="https://opengraph.githubassets.com/1/QuantumKuba/NLS-RAG" alt="NLS-RAG repository preview" width="100%" />
+      </a>
+      <br /><sub><b>NLS-RAG</b> · retrieval research</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/QuantumKuba/obsidian-brainhack">
+        <img src="https://opengraph.githubassets.com/1/QuantumKuba/obsidian-brainhack" alt="obsidian-brainhack repository preview" width="100%" />
+      </a>
+      <br /><sub><b>obsidian-brainhack</b> · knowledge tooling</sub>
+    </td>
+  </tr>
+</table>
 
 ## Toolkit
 
@@ -49,14 +63,17 @@ principle = "Measure carefully. Explain clearly. Ship responsibly."
 
 ## Research telemetry
 
-<p align="center">
-  <img src="./metrics-overview.svg" alt="GitHub development overview" width="49%" />
-  <img src="./metrics-languages.svg" alt="Programming languages overview" width="49%" />
-</p>
-
-<p align="center">
-  <img src="./metrics-isocalendar.svg" alt="Full-year isometric contribution calendar" width="98%" />
-</p>
+<table>
+  <tr>
+    <td align="center"><img src="./metrics-overview.svg" alt="GitHub development overview" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./metrics-languages.svg" alt="Programming languages overview" width="100%" /></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./metrics-isocalendar.svg" alt="Full-year isometric contribution calendar" width="100%" /></td>
+  </tr>
+</table>
 
 <details>
   <summary><b>Why these metrics?</b></summary>
