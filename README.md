@@ -7,7 +7,7 @@
 
 ## `> whoami`
 
-I'm **Jakub**, a PhD researcher in Artificial Intelligence at the University of Strathclyde. I study how retrieval changes the behaviour of language models — and how we can build AI systems that are more reliable, auditable, and useful to people.
+I'm **Jakub**, a PhD researcher in Artificial Intelligence. I study how retrieval changes the behaviour of language models — and how we can build AI systems that are more reliable, auditable, and useful to people.
 
 ```text
 research_focus = [retrieval-augmented generation, LLM evaluation, AI safety, information retrieval]
