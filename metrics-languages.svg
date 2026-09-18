@@ -33,11 +33,11 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">quantumkuba@metrics</span>:<span class="ps1-location">~</span>$ locale</div><div class="stdout"><b>JAVASCRIPT  </b> [##################  ] 88.31%
+<pre><div class="stdin"><span class="ps1-path">quantumkuba@metrics</span>:<span class="ps1-location">~</span>$ locale</div><div class="stdout"><b>JAVASCRIPT  </b> [##################  ] 88.23%
 <b>C++         </b> [##                  ] 7.18 %
 <b>JUPYTER NOTEBOOK</b> [#                   ] 1.83 %
-<b>TYPESCRIPT  </b> [#                   ] 1.20 %
-<b>PYTHON      </b> [#                   ] 0.70 %
+<b>TYPESCRIPT  </b> [#                   ] 1.28 %
+<b>PYTHON      </b> [#                   ] 0.71 %
 <b>C           </b> [#                   ] 0.40 %
 <b>SVELTE      </b> [#                   ] 0.20 %
 <b>LUA         </b> [#                   ] 0.17 %
